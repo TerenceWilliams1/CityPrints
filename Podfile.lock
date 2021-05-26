@@ -1,0 +1,60 @@
+PODS:
+  - DrawerView (1.3.3)
+  - DTOverlayController (1.0.2)
+  - Mapbox-iOS-SDK (5.5.1)
+  - MapboxCoreNavigation (0.35.0):
+    - MapboxDirections.swift (~> 0.28.0)
+    - MapboxMobileEvents (~> 0.9.3)
+    - MapboxNavigationNative (~> 6.2.1)
+    - Turf (~> 0.3.0)
+  - MapboxDirections.swift (0.28.0):
+    - Polyline (~> 4.2)
+  - MapboxMobileEvents (0.9.5)
+  - MapboxNavigation (0.35.0):
+    - Mapbox-iOS-SDK (~> 5.1)
+    - MapboxCoreNavigation (= 0.35.0)
+    - MapboxSpeech (~> 0.1.0)
+    - Solar (~> 2.1)
+  - MapboxNavigationNative (6.2.1)
+  - MapboxSpeech (0.1.1)
+  - Polyline (4.2.1)
+  - Solar (2.1.0)
+  - Turf (0.3.0)
+
+DEPENDENCIES:
+  - DrawerView
+  - DTOverlayController
+  - MapboxNavigation (~> 0.35.0)
+
+SPEC REPOS:
+  trunk:
+    - DrawerView
+    - DTOverlayController
+    - Mapbox-iOS-SDK
+    - MapboxCoreNavigation
+    - MapboxDirections.swift
+    - MapboxMobileEvents
+    - MapboxNavigation
+    - MapboxNavigationNative
+    - MapboxSpeech
+    - Polyline
+    - Solar
+    - Turf
+
+SPEC CHECKSUMS:
+  DrawerView: 41c5e5d6593d86335ee2cf9b18d738835593dbc1
+  DTOverlayController: 7bd26660a6152efabea36f9342182c038d80852e
+  Mapbox-iOS-SDK: 051d78eb8beb4bd0601212a18ea3ba8608bae32f
+  MapboxCoreNavigation: 89eadd5864a32144043231247fc3bd6900843213
+  MapboxDirections.swift: 983803ea5031c376efb8d6a8e86e64ac1f63ed69
+  MapboxMobileEvents: f6c21b2e59066c5c7093585de7c15adae3b63da0
+  MapboxNavigation: 718528e4594c87e2702b6bb9e64a863975b00ccf
+  MapboxNavigationNative: 11dc22140f4698d3f26989f2b6379dc81ef0d4c1
+  MapboxSpeech: 59b3984d3f433a443d24acf53097f918c5cc70f9
+  Polyline: 0e9890790292741c8186201a536b6bb6a78d02dd
+  Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
+  Turf: c6bdf62d6a70c647874f295dd1cf4eefc0c3e9e6
+
+PODFILE CHECKSUM: b952454dacc6be23204e9d127adc13e2579cca0a
+
+COCOAPODS: 1.9.1

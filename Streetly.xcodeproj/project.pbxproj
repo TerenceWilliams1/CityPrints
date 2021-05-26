@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		579EC945289C347378E4C017 /* Pods_City_PrintsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B8F84F689DA8ACD9C1FF61 /* Pods_City_PrintsTests.framework */; };
+		6D4CBC4E2655C6F100DE018F /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CBC4D2655C6F100DE018F /* ColorHelper.swift */; };
+		6D4CBC7B2655CFEB00DE018F /* MapEditorDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CBC792655CFEB00DE018F /* MapEditorDrawerController.swift */; };
+		6D4CBC7C2655CFEB00DE018F /* MapEditorDrawerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4CBC7A2655CFEB00DE018F /* MapEditorDrawerController.xib */; };
+		6D4CBC812655D0B400DE018F /* MapComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CBC802655D0B400DE018F /* MapComponents.swift */; };
+		6D4CBC87265602AD00DE018F /* MapStyleURLCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CBC85265602AD00DE018F /* MapStyleURLCollectionViewCell.swift */; };
+		6D4CBC88265602AD00DE018F /* MapStyleURLCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4CBC86265602AD00DE018F /* MapStyleURLCollectionViewCell.xib */; };
+		6DA65062265977F00039E822 /* PosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA65061265977F00039E822 /* PosterViewController.swift */; };
+		6DA6507F265B17430039E822 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6507E265B17430039E822 /* LocationSearchTable.swift */; };
+		6DA6512A265C47A30039E822 /* ZoomLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA65128265C47A30039E822 /* ZoomLevelViewController.swift */; };
+		6DA6512B265C47A30039E822 /* ZoomLevelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA65129265C47A30039E822 /* ZoomLevelViewController.xib */; };
+		6DA65131265C49460039E822 /* MapZoomLevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6512F265C49460039E822 /* MapZoomLevelCollectionViewCell.swift */; };
+		6DA65132265C49460039E822 /* MapZoomLevelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA65130265C49460039E822 /* MapZoomLevelCollectionViewCell.xib */; };
+		6DA65138265D4CA60039E822 /* EditPosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA65136265D4CA60039E822 /* EditPosterViewController.swift */; };
+		6DA65139265D4CA60039E822 /* EditPosterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA65137265D4CA60039E822 /* EditPosterViewController.xib */; };
+		6DA65140265D69C20039E822 /* EditPosterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6513E265D69C20039E822 /* EditPosterTableViewCell.swift */; };
+		6DA65141265D69C20039E822 /* EditPosterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA6513F265D69C20039E822 /* EditPosterTableViewCell.xib */; };
+		6DA6514D265DE6D20039E822 /* Pattaya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DA65149265DE37D0039E822 /* Pattaya-Regular.ttf */; };
+		6DF56E2826373E8A0044194E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF56E2726373E8A0044194E /* AppDelegate.swift */; };
+		6DF56E2A26373E8A0044194E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF56E2926373E8A0044194E /* SceneDelegate.swift */; };
+		6DF56E2C26373E8A0044194E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF56E2B26373E8A0044194E /* HomeViewController.swift */; };
+		6DF56E2F26373E8A0044194E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF56E2D26373E8A0044194E /* Main.storyboard */; };
+		6DF56E3226373E8A0044194E /* City_Prints.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DF56E3026373E8A0044194E /* City_Prints.xcdatamodeld */; };
+		6DF56E3426373E900044194E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF56E3326373E900044194E /* Assets.xcassets */; };
+		6DF56E3726373E900044194E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF56E3526373E900044194E /* LaunchScreen.storyboard */; };
+		6DF56E4226373E900044194E /* City_PrintsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF56E4126373E900044194E /* City_PrintsTests.swift */; };
+		6DF56E4D26373E910044194E /* City_PrintsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF56E4C26373E910044194E /* City_PrintsUITests.swift */; };
+		6DF56E992637414E0044194E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF56E972637414E0044194E /* MapViewController.swift */; };
+		6DF56E9F2637479D0044194E /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF56E9E2637479D0044194E /* MapboxMobileEvents.framework */; };
+		EA6CC18BBE6E96530DF7BA9D /* Pods_City_Prints_City_PrintsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF02244C82370380F88A9ACE /* Pods_City_Prints_City_PrintsUITests.framework */; };
+		F62F6028F23AEFE5641D1E65 /* Pods_City_Prints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22C947C0263EAD2B202CD9A /* Pods_City_Prints.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DF56E3E26373E900044194E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DF56E1C26373E8A0044194E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DF56E2326373E8A0044194E;
+			remoteInfo = "City Prints";
+		};
+		6DF56E4926373E910044194E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DF56E1C26373E8A0044194E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DF56E2326373E8A0044194E;
+			remoteInfo = "City Prints";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A12DBCB1EBBBDE2FD9110DE /* Pods-City Prints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City Prints.release.xcconfig"; path = "Target Support Files/Pods-City Prints/Pods-City Prints.release.xcconfig"; sourceTree = "<group>"; };
+		1425BE2DD4E2D17CE48ABFF8 /* Pods-City PrintsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City PrintsTests.release.xcconfig"; path = "Target Support Files/Pods-City PrintsTests/Pods-City PrintsTests.release.xcconfig"; sourceTree = "<group>"; };
+		41B8F84F689DA8ACD9C1FF61 /* Pods_City_PrintsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_City_PrintsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4CBC4D2655C6F100DE018F /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		6D4CBC792655CFEB00DE018F /* MapEditorDrawerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEditorDrawerController.swift; sourceTree = "<group>"; };
+		6D4CBC7A2655CFEB00DE018F /* MapEditorDrawerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapEditorDrawerController.xib; sourceTree = "<group>"; };
+		6D4CBC802655D0B400DE018F /* MapComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapComponents.swift; sourceTree = "<group>"; };
+		6D4CBC85265602AD00DE018F /* MapStyleURLCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapStyleURLCollectionViewCell.swift; sourceTree = "<group>"; };
+		6D4CBC86265602AD00DE018F /* MapStyleURLCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapStyleURLCollectionViewCell.xib; sourceTree = "<group>"; };
+		6DA65061265977F00039E822 /* PosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterViewController.swift; sourceTree = "<group>"; };
+		6DA6507E265B17430039E822 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		6DA65128265C47A30039E822 /* ZoomLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomLevelViewController.swift; sourceTree = "<group>"; };
+		6DA65129265C47A30039E822 /* ZoomLevelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZoomLevelViewController.xib; sourceTree = "<group>"; };
+		6DA6512F265C49460039E822 /* MapZoomLevelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapZoomLevelCollectionViewCell.swift; sourceTree = "<group>"; };
+		6DA65130265C49460039E822 /* MapZoomLevelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapZoomLevelCollectionViewCell.xib; sourceTree = "<group>"; };
+		6DA65136265D4CA60039E822 /* EditPosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPosterViewController.swift; sourceTree = "<group>"; };
+		6DA65137265D4CA60039E822 /* EditPosterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPosterViewController.xib; sourceTree = "<group>"; };
+		6DA6513E265D69C20039E822 /* EditPosterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPosterTableViewCell.swift; sourceTree = "<group>"; };
+		6DA6513F265D69C20039E822 /* EditPosterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPosterTableViewCell.xib; sourceTree = "<group>"; };
+		6DA65149265DE37D0039E822 /* Pattaya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pattaya-Regular.ttf"; sourceTree = "<group>"; };
+		6DF56E2426373E8A0044194E /* Streetly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streetly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF56E2726373E8A0044194E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DF56E2926373E8A0044194E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6DF56E2B26373E8A0044194E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6DF56E2E26373E8A0044194E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DF56E3126373E8A0044194E /* City_Prints.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = City_Prints.xcdatamodel; sourceTree = "<group>"; };
+		6DF56E3326373E900044194E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DF56E3626373E900044194E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DF56E3826373E900044194E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF56E3D26373E900044194E /* StreetlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF56E4126373E900044194E /* City_PrintsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_PrintsTests.swift; sourceTree = "<group>"; };
+		6DF56E4326373E900044194E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF56E4826373E910044194E /* StreetlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF56E4C26373E910044194E /* City_PrintsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_PrintsUITests.swift; sourceTree = "<group>"; };
+		6DF56E4E26373E910044194E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF56E972637414E0044194E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6DF56E9E2637479D0044194E /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MapboxMobileEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		743E9EA7B5E30CD930600360 /* Pods-City Prints-City PrintsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City Prints-City PrintsUITests.release.xcconfig"; path = "Target Support Files/Pods-City Prints-City PrintsUITests/Pods-City Prints-City PrintsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		806F7636FA4C601029730E38 /* Pods-City Prints-City PrintsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City Prints-City PrintsUITests.debug.xcconfig"; path = "Target Support Files/Pods-City Prints-City PrintsUITests/Pods-City Prints-City PrintsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAB73F01D0264606E081A695 /* Pods-City PrintsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City PrintsTests.debug.xcconfig"; path = "Target Support Files/Pods-City PrintsTests/Pods-City PrintsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC76050BB97CAB0980847D0F /* Pods-City Prints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City Prints.debug.xcconfig"; path = "Target Support Files/Pods-City Prints/Pods-City Prints.debug.xcconfig"; sourceTree = "<group>"; };
+		F22C947C0263EAD2B202CD9A /* Pods_City_Prints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_City_Prints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF02244C82370380F88A9ACE /* Pods_City_Prints_City_PrintsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_City_Prints_City_PrintsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DF56E2126373E8A0044194E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF56E9F2637479D0044194E /* MapboxMobileEvents.framework in Frameworks */,
+				F62F6028F23AEFE5641D1E65 /* Pods_City_Prints.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF56E3A26373E900044194E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579EC945289C347378E4C017 /* Pods_City_PrintsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF56E4526373E910044194E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6CC18BBE6E96530DF7BA9D /* Pods_City_Prints_City_PrintsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0415A43DA972781ACE88F47C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DF56E9E2637479D0044194E /* MapboxMobileEvents.framework */,
+				F22C947C0263EAD2B202CD9A /* Pods_City_Prints.framework */,
+				FF02244C82370380F88A9ACE /* Pods_City_Prints_City_PrintsUITests.framework */,
+				41B8F84F689DA8ACD9C1FF61 /* Pods_City_PrintsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D4CBC4C2655C6DA00DE018F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6D4CBC4D2655C6F100DE018F /* ColorHelper.swift */,
+				6D4CBC802655D0B400DE018F /* MapComponents.swift */,
+				6DA65148265DE1CE0039E822 /* Fonts */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6DA6505E2659774D0039E822 /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6D4CBC85265602AD00DE018F /* MapStyleURLCollectionViewCell.swift */,
+				6D4CBC86265602AD00DE018F /* MapStyleURLCollectionViewCell.xib */,
+				6DA6512F265C49460039E822 /* MapZoomLevelCollectionViewCell.swift */,
+				6DA65130265C49460039E822 /* MapZoomLevelCollectionViewCell.xib */,
+			);
+			path = "Collection View Cells";
+			sourceTree = "<group>";
+		};
+		6DA6505F265977640039E822 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6DF56E2B26373E8A0044194E /* HomeViewController.swift */,
+				6DA6507E265B17430039E822 /* LocationSearchTable.swift */,
+				6DF56E972637414E0044194E /* MapViewController.swift */,
+				6DA65061265977F00039E822 /* PosterViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6DA65060265977770039E822 /* Sub View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D4CBC792655CFEB00DE018F /* MapEditorDrawerController.swift */,
+				6D4CBC7A2655CFEB00DE018F /* MapEditorDrawerController.xib */,
+				6DA65128265C47A30039E822 /* ZoomLevelViewController.swift */,
+				6DA65129265C47A30039E822 /* ZoomLevelViewController.xib */,
+				6DA65136265D4CA60039E822 /* EditPosterViewController.swift */,
+				6DA65137265D4CA60039E822 /* EditPosterViewController.xib */,
+			);
+			path = "Sub View Controllers";
+			sourceTree = "<group>";
+		};
+		6DA6513D265D60300039E822 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6DA6513E265D69C20039E822 /* EditPosterTableViewCell.swift */,
+				6DA6513F265D69C20039E822 /* EditPosterTableViewCell.xib */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		6DA65148265DE1CE0039E822 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6DA65149265DE37D0039E822 /* Pattaya-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6DF56E1B26373E8A0044194E = {
+			isa = PBXGroup;
+			children = (
+				6DF56E2626373E8A0044194E /* City Prints */,
+				6DF56E4026373E900044194E /* City PrintsTests */,
+				6DF56E4B26373E910044194E /* City PrintsUITests */,
+				6DF56E2526373E8A0044194E /* Products */,
+				AA8DEA46577C8AF35E74C627 /* Pods */,
+				0415A43DA972781ACE88F47C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DF56E2526373E8A0044194E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DF56E2426373E8A0044194E /* Streetly.app */,
+				6DF56E3D26373E900044194E /* StreetlyTests.xctest */,
+				6DF56E4826373E910044194E /* StreetlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DF56E2626373E8A0044194E /* City Prints */ = {
+			isa = PBXGroup;
+			children = (
+				6DF56E2726373E8A0044194E /* AppDelegate.swift */,
+				6DF56E2926373E8A0044194E /* SceneDelegate.swift */,
+				6DF56E2D26373E8A0044194E /* Main.storyboard */,
+				6D4CBC4C2655C6DA00DE018F /* Helpers */,
+				6DA6505F265977640039E822 /* View Controllers */,
+				6DA65060265977770039E822 /* Sub View Controllers */,
+				6DA6505E2659774D0039E822 /* Collection View Cells */,
+				6DA6513D265D60300039E822 /* Table View Cells */,
+				6DF56E3326373E900044194E /* Assets.xcassets */,
+				6DF56E3526373E900044194E /* LaunchScreen.storyboard */,
+				6DF56E3826373E900044194E /* Info.plist */,
+				6DF56E3026373E8A0044194E /* City_Prints.xcdatamodeld */,
+			);
+			path = "City Prints";
+			sourceTree = "<group>";
+		};
+		6DF56E4026373E900044194E /* City PrintsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DF56E4126373E900044194E /* City_PrintsTests.swift */,
+				6DF56E4326373E900044194E /* Info.plist */,
+			);
+			path = "City PrintsTests";
+			sourceTree = "<group>";
+		};
+		6DF56E4B26373E910044194E /* City PrintsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DF56E4C26373E910044194E /* City_PrintsUITests.swift */,
+				6DF56E4E26373E910044194E /* Info.plist */,
+			);
+			path = "City PrintsUITests";
+			sourceTree = "<group>";
+		};
+		AA8DEA46577C8AF35E74C627 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC76050BB97CAB0980847D0F /* Pods-City Prints.debug.xcconfig */,
+				0A12DBCB1EBBBDE2FD9110DE /* Pods-City Prints.release.xcconfig */,
+				806F7636FA4C601029730E38 /* Pods-City Prints-City PrintsUITests.debug.xcconfig */,
+				743E9EA7B5E30CD930600360 /* Pods-City Prints-City PrintsUITests.release.xcconfig */,
+				AAB73F01D0264606E081A695 /* Pods-City PrintsTests.debug.xcconfig */,
+				1425BE2DD4E2D17CE48ABFF8 /* Pods-City PrintsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DF56E2326373E8A0044194E /* Streetly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF56E5126373E910044194E /* Build configuration list for PBXNativeTarget "Streetly" */;
+			buildPhases = (
+				0CCC0F9EEBECFC8739720596 /* [CP] Check Pods Manifest.lock */,
+				6DF56E2026373E8A0044194E /* Sources */,
+				6DF56E2126373E8A0044194E /* Frameworks */,
+				6DF56E2226373E8A0044194E /* Resources */,
+				15C627E259865941BB91F655 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Streetly;
+			productName = "City Prints";
+			productReference = 6DF56E2426373E8A0044194E /* Streetly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DF56E3C26373E900044194E /* StreetlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF56E5426373E910044194E /* Build configuration list for PBXNativeTarget "StreetlyTests" */;
+			buildPhases = (
+				66155ADD7C2608BBF62868BE /* [CP] Check Pods Manifest.lock */,
+				6DF56E3926373E900044194E /* Sources */,
+				6DF56E3A26373E900044194E /* Frameworks */,
+				6DF56E3B26373E900044194E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DF56E3F26373E900044194E /* PBXTargetDependency */,
+			);
+			name = StreetlyTests;
+			productName = "City PrintsTests";
+			productReference = 6DF56E3D26373E900044194E /* StreetlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DF56E4726373E910044194E /* StreetlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF56E5726373E910044194E /* Build configuration list for PBXNativeTarget "StreetlyUITests" */;
+			buildPhases = (
+				4684B68EB006F93BAD93AE63 /* [CP] Check Pods Manifest.lock */,
+				6DF56E4426373E910044194E /* Sources */,
+				6DF56E4526373E910044194E /* Frameworks */,
+				6DF56E4626373E910044194E /* Resources */,
+				1F92ACC5338B21F1E477E117 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DF56E4A26373E910044194E /* PBXTargetDependency */,
+			);
+			name = StreetlyUITests;
+			productName = "City PrintsUITests";
+			productReference = 6DF56E4826373E910044194E /* StreetlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DF56E1C26373E8A0044194E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					6DF56E2326373E8A0044194E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					6DF56E3C26373E900044194E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 6DF56E2326373E8A0044194E;
+					};
+					6DF56E4726373E910044194E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 6DF56E2326373E8A0044194E;
+					};
+				};
+			};
+			buildConfigurationList = 6DF56E1F26373E8A0044194E /* Build configuration list for PBXProject "Streetly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DF56E1B26373E8A0044194E;
+			productRefGroup = 6DF56E2526373E8A0044194E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DF56E2326373E8A0044194E /* Streetly */,
+				6DF56E3C26373E900044194E /* StreetlyTests */,
+				6DF56E4726373E910044194E /* StreetlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DF56E2226373E8A0044194E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA6514D265DE6D20039E822 /* Pattaya-Regular.ttf in Resources */,
+				6D4CBC7C2655CFEB00DE018F /* MapEditorDrawerController.xib in Resources */,
+				6DA65132265C49460039E822 /* MapZoomLevelCollectionViewCell.xib in Resources */,
+				6DF56E3726373E900044194E /* LaunchScreen.storyboard in Resources */,
+				6DA6512B265C47A30039E822 /* ZoomLevelViewController.xib in Resources */,
+				6DF56E3426373E900044194E /* Assets.xcassets in Resources */,
+				6DA65141265D69C20039E822 /* EditPosterTableViewCell.xib in Resources */,
+				6D4CBC88265602AD00DE018F /* MapStyleURLCollectionViewCell.xib in Resources */,
+				6DF56E2F26373E8A0044194E /* Main.storyboard in Resources */,
+				6DA65139265D4CA60039E822 /* EditPosterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF56E3B26373E900044194E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF56E4626373E910044194E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CCC0F9EEBECFC8739720596 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-City Prints-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15C627E259865941BB91F655 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-City Prints/Pods-City Prints-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-City Prints/Pods-City Prints-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-City Prints/Pods-City Prints-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F92ACC5338B21F1E477E117 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-City Prints-City PrintsUITests/Pods-City Prints-City PrintsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-City Prints-City PrintsUITests/Pods-City Prints-City PrintsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-City Prints-City PrintsUITests/Pods-City Prints-City PrintsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4684B68EB006F93BAD93AE63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-City Prints-City PrintsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66155ADD7C2608BBF62868BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-City PrintsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DF56E2026373E8A0044194E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF56E3226373E8A0044194E /* City_Prints.xcdatamodeld in Sources */,
+				6DA65131265C49460039E822 /* MapZoomLevelCollectionViewCell.swift in Sources */,
+				6DF56E2C26373E8A0044194E /* HomeViewController.swift in Sources */,
+				6D4CBC812655D0B400DE018F /* MapComponents.swift in Sources */,
+				6DF56E2826373E8A0044194E /* AppDelegate.swift in Sources */,
+				6DA65138265D4CA60039E822 /* EditPosterViewController.swift in Sources */,
+				6DA6512A265C47A30039E822 /* ZoomLevelViewController.swift in Sources */,
+				6D4CBC87265602AD00DE018F /* MapStyleURLCollectionViewCell.swift in Sources */,
+				6DA65140265D69C20039E822 /* EditPosterTableViewCell.swift in Sources */,
+				6DA6507F265B17430039E822 /* LocationSearchTable.swift in Sources */,
+				6DA65062265977F00039E822 /* PosterViewController.swift in Sources */,
+				6DF56E992637414E0044194E /* MapViewController.swift in Sources */,
+				6D4CBC4E2655C6F100DE018F /* ColorHelper.swift in Sources */,
+				6D4CBC7B2655CFEB00DE018F /* MapEditorDrawerController.swift in Sources */,
+				6DF56E2A26373E8A0044194E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF56E3926373E900044194E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF56E4226373E900044194E /* City_PrintsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF56E4426373E910044194E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF56E4D26373E910044194E /* City_PrintsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DF56E3F26373E900044194E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DF56E2326373E8A0044194E /* Streetly */;
+			targetProxy = 6DF56E3E26373E900044194E /* PBXContainerItemProxy */;
+		};
+		6DF56E4A26373E910044194E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DF56E2326373E8A0044194E /* Streetly */;
+			targetProxy = 6DF56E4926373E910044194E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DF56E2D26373E8A0044194E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DF56E2E26373E8A0044194E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DF56E3526373E900044194E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DF56E3626373E900044194E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DF56E4F26373E910044194E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DF56E5026373E910044194E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DF56E5226373E910044194E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC76050BB97CAB0980847D0F /* Pods-City Prints.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = FVSZK45BZJ;
+				INFOPLIST_FILE = "City Prints/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terence-williams.City-Prints";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6DF56E5326373E910044194E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A12DBCB1EBBBDE2FD9110DE /* Pods-City Prints.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = FVSZK45BZJ;
+				INFOPLIST_FILE = "City Prints/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terence-williams.City-Prints";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6DF56E5526373E910044194E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB73F01D0264606E081A695 /* Pods-City PrintsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVSZK45BZJ;
+				INFOPLIST_FILE = "City PrintsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terence-williams.City-PrintsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Streetly.app/Streetly";
+			};
+			name = Debug;
+		};
+		6DF56E5626373E910044194E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1425BE2DD4E2D17CE48ABFF8 /* Pods-City PrintsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVSZK45BZJ;
+				INFOPLIST_FILE = "City PrintsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terence-williams.City-PrintsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Streetly.app/Streetly";
+			};
+			name = Release;
+		};
+		6DF56E5826373E910044194E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806F7636FA4C601029730E38 /* Pods-City Prints-City PrintsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVSZK45BZJ;
+				INFOPLIST_FILE = "City PrintsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terence-williams.City-PrintsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "City Prints";
+			};
+			name = Debug;
+		};
+		6DF56E5926373E910044194E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743E9EA7B5E30CD930600360 /* Pods-City Prints-City PrintsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVSZK45BZJ;
+				INFOPLIST_FILE = "City PrintsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terence-williams.City-PrintsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "City Prints";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DF56E1F26373E8A0044194E /* Build configuration list for PBXProject "Streetly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF56E4F26373E910044194E /* Debug */,
+				6DF56E5026373E910044194E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF56E5126373E910044194E /* Build configuration list for PBXNativeTarget "Streetly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF56E5226373E910044194E /* Debug */,
+				6DF56E5326373E910044194E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF56E5426373E910044194E /* Build configuration list for PBXNativeTarget "StreetlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF56E5526373E910044194E /* Debug */,
+				6DF56E5626373E910044194E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF56E5726373E910044194E /* Build configuration list for PBXNativeTarget "StreetlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF56E5826373E910044194E /* Debug */,
+				6DF56E5926373E910044194E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6DF56E3026373E8A0044194E /* City_Prints.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DF56E3126373E8A0044194E /* City_Prints.xcdatamodel */,
+			);
+			currentVersion = 6DF56E3126373E8A0044194E /* City_Prints.xcdatamodel */;
+			path = City_Prints.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6DF56E1C26373E8A0044194E /* Project object */;
+}
